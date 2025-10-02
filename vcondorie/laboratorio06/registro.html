@@ -6,29 +6,41 @@
     <title>Registro</title>
 </head>
 <body>
-    <form action="#" method="post">
-        <fieldset>
-            <legend>Boletín de noticias</legend>
+    <header>
+        <h1>Registro</h1>
+        <nav>
+            <ul>
+                <li><a href="validacion.html">Formulario de validación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Boletín de noticias</legend>
 
-            <label for="nombre">Nombre completo: </label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
-            <br><br>
+                    <label for="nombre">Nombre completo: </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                    <br><br>
 
-            <label for="correo">Correo: </label>
-            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
-            <br><br>
+                    <label for="correo">Correo: </label>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    <br><br>
 
-            <label>
-                <input type="checkbox" name="terminos" required>
-                Acepto recibir correos promocionales.
-            </label>
-            <br><br>
+                    <label>
+                        <input type="checkbox" name="terminos" required>
+                        Acepto recibir correos promocionales.
+                    </label>
+                    <br><br>
 
-            <button type="summit">Suscribirse</button>
-            <button type="reset">Resetear</button>
+                    <button type="summit">Suscribirse</button>
+                    <button type="reset">Resetear</button>
 
-        </fieldset>
+                </fieldset>
 
-    </form>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
